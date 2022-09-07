@@ -1,21 +1,18 @@
 package com.bridgelabz;
 
-public class EmployeeWage
-{
-	public void employeeIsPresentOrNot() {}
+public class EmployeeWage {
 
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
 		double random = Math.random();
-		System.out.println(random);
-		for (random=0.5; random <= 5; random++ )
+		if(random>0.5)
 		{
-			System.out.println("emp is present");
-			{
-				System.out.println("emp is Absent");
-			}
+			System.out.println("Emp is Present");	
 		}
-
+		else
+		{
+		    System.out.println("Emp is absent");	
+		}
 	}
-}
 
+}
