@@ -19,7 +19,7 @@ public class EmployeeWage {
 		}
 		else
 		{
-		    System.out.println("Emp is absent   :::");	
+		    System.out.println("Emp is absent... :::");	
 		}
 	}
 
