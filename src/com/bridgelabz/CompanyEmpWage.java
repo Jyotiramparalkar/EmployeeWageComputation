@@ -7,6 +7,8 @@ public class CompanyEmpWage
     private int totalWorkingDays;
     private int totalWorkingHrs;
     private int totalEmpWage;
+    
+    
 
     //parametrized constructor
     public CompanyEmpWage(String companyName, int wagePerHr, int totalWorkingDays, int totalWorkingHrs) {
