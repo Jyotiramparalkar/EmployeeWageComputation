@@ -8,8 +8,6 @@ public class CompanyEmpWage
     private int totalWorkingHrs;
     private int totalEmpWage;
     
-    
-
     //parametrized constructor
     public CompanyEmpWage(String companyName, int wagePerHr, int totalWorkingDays, int totalWorkingHrs) {
         this.companyName = companyName;
